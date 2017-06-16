@@ -1,0 +1,30 @@
+<package>
+    <name>asr_robot</name>
+    <version>1.0.0</version>
+    <description>
+	Metapackage for all robot components.
+    </description>
+    <author>Felix Marek</author>
+    <maintainer email="asr-ros@lists.kit.edu">Meißner Pascal</maintainer>
+    <license>BSD</license>  
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <run_depend>asr_mild_base_driving</run_depend>
+    <run_depend>asr_mild_base_laserscanner</run_depend>
+    <run_depend>asr_mild_base_launch_files</run_depend>
+    <run_depend>asr_mild_base_fake_driving</run_depend>
+    <run_depend>asr_ftc_local_planner</run_depend>
+    <run_depend>asr_navfn</run_depend>
+    <run_depend>asr_mild_navigation</run_depend>
+    <run_depend>asr_mild_calibration_tool</run_depend>
+    <run_depend>asr_gazebo_models</run_depend>
+    <run_depend>asr_mild_kinematic_chain</run_depend>
+    <run_depend>asr_robot_model_services</run_depend>
+
+
+
+    <export>
+        <metapackage/>
+    </export>
+</package>
