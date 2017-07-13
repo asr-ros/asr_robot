@@ -1,6 +1,6 @@
 <package>
     <name>asr_robot</name>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
     <description>
 	Packages to control and visualize our robot. Includes packages you can use for drives your robot. 
     </description>
